@@ -29,8 +29,8 @@ namespace Themegrill\ContactFormPluginV2;
     add_action( 'wp_enqueue_scripts' , array( $this , 'enqueueCpfFormHandlerScripts' ) );
 
     //form action handler
-    add_action( 'wp_ajax_submit_cfp_form_action' , array ( 'Handleforms' , 'handleForm'  ) );
-    add_action( 'wp_ajax_nopriv_submit_cfp_form_action' , array ( 'Handleforms' , 'handleForm'  ) );
+    add_action( 'wp_ajax_submit_cfp_form_action' , array ( 'Themegrill\ContactFormPluginV2\Handleforms' , 'handleForm'  ) );
+    add_action( 'wp_ajax_nopriv_submit_cfp_form_action' , array ( 'Themegrill\ContactFormPluginV2\Handleforms' , 'handleForm'  ) );
 
    }
 

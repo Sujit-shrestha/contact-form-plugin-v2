@@ -129,7 +129,6 @@ final class Contactformspluginclass {
      */
     public function classInstantionations () {
       //shortcode class initialization
-      error_log(print_r("reached class instance of shortcode" , true) );
       new Shortcode ( );
 
     }

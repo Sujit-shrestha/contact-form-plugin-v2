@@ -21,7 +21,7 @@ class Handleforms {
   /**
    * Handles the form data 
    * 
-   * Parses , sanitizes , validates and sedn a escaped & translated result
+   * Parses , sanitizes , validates and sends a escaped & translated result
    * 
    * @param none
    * @return void
@@ -36,8 +36,8 @@ class Handleforms {
     $email   = sanitize_text_field( $formData["email"] );
     $subject = sanitize_text_field( $formData["subject"] );
     $message = sanitize_textarea_field( $formData["message"] );
-    $nonce   = $_POST["nonce"];
-    $form_id = $formData["form_id"];
+    $nonce   = $_POST["nonce"] ?? null;
+    $form_id = $formData["form_id"] ?? null;
     
     //formating user data for further processing
     $dataFromUser = array(
