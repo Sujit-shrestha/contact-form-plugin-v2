@@ -37,5 +37,5 @@ if( ! defined( 'CFP_TEXT_DOMAIN' ) ){
   *
   */
   require __DIR__ . '/vendor/autoload.php';
-  Themegrill\ContactFormPluginV2\Contactformspluginclass::getInstance();
+  Themegrill\ContactFormPluginV2\Contactformsplugin::getInstance();
 

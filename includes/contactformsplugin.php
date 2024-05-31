@@ -10,12 +10,12 @@ namespace Themegrill\ContactFormPluginV2;
   *@version 1.0.1
   */
  
-final class Contactformspluginclass {
+final class Contactformsplugin {
 
     /**
      * Single instance of the main class.
      * 
-     * @var Contactformspluginclass
+     * @var Contactformsplugin
      * 
      */
     private static $instance  = null;
