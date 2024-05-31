@@ -1,0 +1,16 @@
+{
+    "name": "themegrill/contact-form-plugin-v2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Themegrill\\ContactFormPluginV2\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sujit Shrestha",
+            "email": "sujitshrestha0004@gmal.com"
+        }
+    ],
+    "require": {}
+}
